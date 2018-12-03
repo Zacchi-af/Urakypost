@@ -1,0 +1,24 @@
+{
+  "name": "Urakypost",
+  "version": "1.0.0",
+  "description": "Website for Urakypost.ch",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zacchi-af/Urakypost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zacchi-af/Urakypost/issues"
+  },
+  "homepage": "https://github.com/Zacchi-af/Urakypost#readme"
+}
