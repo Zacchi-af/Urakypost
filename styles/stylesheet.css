@@ -2,11 +2,52 @@
 .footer {
     background-color: white;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: black;
+    color: #000;
+    padding-bottom: 48px;
 }
 .footer, strong {
-    color: black;
+    color: #000;
 }
-.footer, a {
-    
+.footer, p, a {
+    color: red;
+}
+.footer, p {
+    color: #000;
+}
+/*STICKY FOOTER*/
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+.site-content {
+    flex: 1;
+}
+
+/*BODY*/
+h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+h1, .title {
+    color: #000;
+}
+h1, .title .is-two {
+    color: #000;
+    text-transform: unset;
+}
+
+/*NAVBAR*/
+@media screen and (max-width: 1087px){
+    .navbar>.container {
+        display: flex;
+    }
+    .navbar {
+        padding-top: 0 !important;
+    }
+}
+.navbar {
+    padding-top: 20px;
 }
